@@ -8,7 +8,7 @@
           "name": "C/C++: gcc.exe build and debug active file",
           "type": "cppdbg",
           "request": "launch",
-          "program": "${workspaceFolder}/c/helloworld.c",
+          "program": "${workspaceFolder}/a.out",
           "args": [],
           "stopAtEntry": false,
           "cwd": "${fileDirname}",

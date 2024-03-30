@@ -9,6 +9,6 @@ int main()
     cout<<str<<"\n";
     cout<<"Please enter a number : ";
     cin>>a;
-    cout<<"number is: "<<a<<"\n";
+    cout<<"number is: "<<a<< endl;
     return 0;
 }
