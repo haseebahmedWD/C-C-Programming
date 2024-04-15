@@ -17,6 +17,5 @@ int main()
     cin>>str;
     cout<<"Sentence is: "<<str<<"\n";
     
-   
     return 0;
 }
