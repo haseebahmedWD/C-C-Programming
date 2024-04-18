@@ -12,7 +12,6 @@ int main()
     cout<<"Please enter sentence: ";
     getline(cin,str);  //we do not use cin for string input because cin will consider whitespace as termination character and it will print only one word and remaining words array will be move to next line
     cout<<"Sentence is: "<<str<<endl;
-
     cout<<"Please enter a word: ";
     cin>>str;
     cout<<"Sentence is: "<<str<<"\n";
