@@ -5,7 +5,7 @@ int main()
     int myNum = 5, myNum2 = 6;
     double mydoubleNum = 12.57;
     char myChar = 'A';
-    float myfloatNum = 6.77;
+    float myfloatNum = 6.77f;
     float myfloatNum2 = 35e3;   //power of 10 
     string myText = "Hello World";
     bool myBoolean = false;
