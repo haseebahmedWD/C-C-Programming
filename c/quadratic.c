@@ -1,8 +1,12 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     // // write a program to check nature of roots of quadratic equations
+    // IF PROGRAM NOT COMPILED THEN CHANGE command in terminal then compile
+    // gcc quadratic.c -o quadratic -lm 
     int a,b,c,d = 0;
+    int first, second = 0;
     printf("Enter values of a b c : ");
     scanf("%d %d %d",&a,&b,&c);
     //discriminant formula
@@ -10,10 +14,18 @@ int main()
     if (d > 0)
     {
         printf("Real and Distinct Roots! \n");
+        first = (-b + sqrt(d)) / (2 * a);
+        second = (-b - sqrt(d)) / (2 * a);
+        printf("Root frist value: %d \n",first);
+        printf("Root second value: %d \n",second);
     }
     else if (d == 0)
     {
         printf("Real and Equal Roots! \n");
+        first = -b + 0 / (2 * a);
+        second = -b - 0 / (2 / a);
+        printf("Root frist value: %d \n",first);
+        printf("Root second value: %d \n",second);
     }
     else
     {
