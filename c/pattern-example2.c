@@ -53,7 +53,7 @@ for (int i = 1; i <= lines; i++)
     i <= ((lines + 1) / 2) ? (k = i) : (k = (lines + 1) - i); 
     for (int j = 1; j <= lines; j++)
     {
-        if (j >= ((lines + 1) / 2) + 1 - k && j <= ((lines) / 2) + k )
+        if (j >= ((lines + 1) / 2) + 1 - k && j <= ((lines+1) / 2) -1 + k )
         {
             printf(" * ");
         }
@@ -65,9 +65,7 @@ for (int i = 1; i <= lines; i++)
     printf("\n"); 
 }
 
-
 printf("**************************************** \n");
-
 
 
     return 0;
