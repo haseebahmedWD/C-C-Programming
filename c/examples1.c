@@ -2,7 +2,8 @@
 
 int main()
 {
-    int num = 0;
+    int num, temp = 0;
+    double div = 0;
     //program to check whether number is divisible by 5 or not
     printf("Enter a number: ");
     scanf("%d",&num);
@@ -28,6 +29,22 @@ int main()
         printf("%d is even \n", num);
     }
     printf("**************************************** \n");
+    //program to check whether number is even or odd without using % operator
+    printf("Enter a number: ");
+    scanf("%d",&num);
+    div = num / 2.0;    //divide the integer number with decimal value and store answer in decimal value
+    temp = div;         // storing as integer value (without decimal)
+    div = div - temp;   // subtracting integer from decimal value and result will be greater than 0.0 or equal to 0.0
+    if (div == 0)   //  0.0 IS SAME AS 0
+    {
+        printf("%d is Even \n",num);
+    }
+    else
+    {
+        printf("%d is Odd \n",num);
+    }
+    
+     printf("**************************************** \n");
 
     //write a program to swap two integer variables without using third
     int num1 = 0;
